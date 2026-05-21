@@ -8,6 +8,12 @@ A Convolutional Neural Network built from scratch in Java with no ML libraries, 
 - **Max Pool Layer:** 2×2 window, stride 2
 - **Fully Connected Layer:** 1152 → 10 neurons, Softmax
 
+## Challenges
+
+- Implementing backpropagation through convolution layers
+- Debugging gradient flow across layers
+- Managing matrix dimensions manually without libraries
+
 ## How it works
 - Forward pass: convolution → pooling → fully connected → softmax
 - Backward pass: full SGD with cross-entropy loss
@@ -22,12 +28,13 @@ A Convolutional Neural Network built from scratch in Java with no ML libraries, 
 This project was built to solidify concepts from my NPTEL Deep Learning certification by implementing a CNN entirely from scratch in Java.
 
 ## Results
-Trained on 3,000 MNIST images for 1 epoch (quick test run).
-With the full 60,000 training images over 3 epochs, expected accuracy is 95-97%.
 
-Epoch 1 — avg loss: 0.1336 | train accuracy: 95.93%
-Epoch 2 — avg loss: 0.0649 | train accuracy: 97.99%
-Epoch 3 — avg loss: 0.0508 | train accuracy: 98.40%
-Test accuracy: 98.00% (980/1000)
+Trained on full MNIST dataset (60,000 images, 3 epochs)
+
+- Epoch 1 — Loss: 0.1336 | Accuracy: 95.93%
+- Epoch 2 — Loss: 0.0649 | Accuracy: 97.99%
+- Epoch 3 — Loss: 0.0508 | Accuracy: 98.40%
+
+**Test Accuracy:** 98.00% (980/1000)
 
 No overfitting observed.
