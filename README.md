@@ -11,7 +11,7 @@ A Convolutional Neural Network built from scratch in Java with no ML libraries, 
 ## How it works
 - Forward pass: convolution → pooling → fully connected → softmax
 - Backward pass: full SGD with cross-entropy loss
-- No external ML libraries — everything implemented from scratch
+- No external ML libraries. Everything implemented from scratch
 
 ## Setup
 1. Download MNIST CSV data from https://pjreddie.com/projects/mnist-in-csv/
@@ -19,8 +19,8 @@ A Convolutional Neural Network built from scratch in Java with no ML libraries, 
 3. Run `Main.java`
 
 ## Background
-This project was built to solidify concepts from my NPTEL Deep Learning certification by implementing a CNN entirely from scratch in Java — no frameworks, no shortcuts.
+This project was built to solidify concepts from my NPTEL Deep Learning certification by implementing a CNN entirely from scratch in Java.
 
 ## Results
 Trained on 3,000 MNIST images for 1 epoch (quick test run).
-With the full 60,000 training images over 3 epochs, expected accuracy is ~95-97%.
+With the full 60,000 training images over 3 epochs, expected accuracy is 95-97%.
