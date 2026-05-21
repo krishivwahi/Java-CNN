@@ -17,3 +17,6 @@ A Convolutional Neural Network built from scratch in Java with no ML libraries, 
 1. Download MNIST CSV data from https://pjreddie.com/projects/mnist-in-csv/
 2. Place `mnist_train.csv` and `mnist_test.csv` in the `data/` folder
 3. Run `Main.java`
+
+## Background
+This project was built to solidify concepts from my NPTEL Deep Learning certification by implementing a CNN entirely from scratch in Java — no frameworks, no shortcuts.
