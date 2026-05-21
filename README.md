@@ -20,3 +20,7 @@ A Convolutional Neural Network built from scratch in Java with no ML libraries, 
 
 ## Background
 This project was built to solidify concepts from my NPTEL Deep Learning certification by implementing a CNN entirely from scratch in Java — no frameworks, no shortcuts.
+
+## Results
+Trained on 3,000 MNIST images for 1 epoch (quick test run).
+With the full 60,000 training images over 3 epochs, expected accuracy is ~95-97%.
