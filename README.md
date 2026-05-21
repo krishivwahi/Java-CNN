@@ -24,3 +24,10 @@ This project was built to solidify concepts from my NPTEL Deep Learning certific
 ## Results
 Trained on 3,000 MNIST images for 1 epoch (quick test run).
 With the full 60,000 training images over 3 epochs, expected accuracy is 95-97%.
+
+Epoch 1 — avg loss: 0.1336 | train accuracy: 95.93%
+Epoch 2 — avg loss: 0.0649 | train accuracy: 97.99%
+Epoch 3 — avg loss: 0.0508 | train accuracy: 98.40%
+Test accuracy: 98.00% (980/1000)
+
+No overfitting observed.
